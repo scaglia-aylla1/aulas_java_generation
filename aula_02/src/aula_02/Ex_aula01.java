@@ -70,7 +70,7 @@ public class Ex_aula01 {
 	     System.out.printf("Diferença: %.1f%n", diferenca);
 		
 
-		
+		scan.close();
 
 	}
 

@@ -35,6 +35,7 @@ public class Variaveis {
 		System.out.printf("Constante PI é igual a: %.2f\n", PI);
 		System.out.println("Variável nome em letras maiúsculas: " + nome.toUpperCase());
 
+		leia.close();
 	}
 
 }

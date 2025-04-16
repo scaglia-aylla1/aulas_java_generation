@@ -27,6 +27,7 @@ public class Calculadora {
 		System.out.printf("\n%.2f R %.2f = %.2f", numero1, numero2, Math.sqrt(numero1));
 		
 
+		leia.close();
 	}
 
 }
