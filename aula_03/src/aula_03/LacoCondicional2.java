@@ -8,40 +8,50 @@ public class LacoCondicional2 {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-//		//Calculadora
-//		System.out.print("Digite o 1º número: ");
-//        float numero1 = scanner.nextFloat();
-//		
-//        System.out.print("Digite o 2º número: ");
-//        float numero2 = scanner.nextFloat();
-//		
-//        System.out.print("Operação: ");
-//        int opcao = scanner.nextInt();
-//        
-//        switch (opcao) {
-//        case 1:
-//            System.out.println(numero1 + " + " + numero2 + " = " + (numero1 + numero2));
-//            break;
-//        case 2:
-//            System.out.println(numero1 + " - " + numero2 + " = " + (numero1 - numero2));
-//            break;
-//        case 3:
-//            System.out.println(numero1 + " * " + numero2 + " = " + (numero1 * numero2));
-//            break;
-//        case 4:
-//            System.out.println(numero1 + " / " + numero2 + " = " + (numero1 / numero2));
-//            break;
-//        default:
-//            System.out.println("Operação Inválida!");
-//    }
+	   //Calculadora
+		 System.out.print("Digite o 1º número: ");
+	        float numero1 = scanner.nextFloat();
+
+	        System.out.print("Digite o 2º número: ");
+	        float numero2 = scanner.nextFloat();
+
+	        System.out.println("\nEscolha a operação:");
+	        System.out.println("1 - Soma");
+	        System.out.println("2 - Subtração");
+	        System.out.println("3 - Multiplicação");
+	        System.out.println("4 - Divisão");
+
+	        System.out.print("Operação: ");
+	        int operacao = scanner.nextInt();
+
+	        switch (operacao) {
+	            case 1:
+	                System.out.println(numero1 + " + " + numero2 + " = " + (numero1 + numero2));
+	                break;
+	            case 2:
+	                System.out.println(numero1 + " - " + numero2 + " = " + (numero1 - numero2));
+	                break;
+	            case 3:
+	                System.out.println(numero1 + " * " + numero2 + " = " + (numero1 * numero2));
+	                break;
+	            case 4:
+	                if (numero2 == 0) {
+	                    System.out.println("Erro: Divisão por zero não é permitida.");
+	                } else {
+	                    System.out.println(numero1 + " / " + numero2 + " = " + (numero1 / numero2));
+	                }
+	                break;
+	            default:
+	                System.out.println("Operação Inválida!");
+	        }
 		
 		//Conta Bancaria
         float saldo = 1000.00f; // Saldo inicial
 
         System.out.print("Operação: ");
-        int operacao = scanner.nextInt();
+        int operacao2 = scanner.nextInt();
 
-        switch (operacao) {
+        switch (operacao2) {
             case 1:
                 System.out.println("\nOperação - Saldo");
                 System.out.printf("Saldo: R$ %.2f\n", saldo);
@@ -73,13 +83,7 @@ public class LacoCondicional2 {
             default:
                 System.out.println("\nOperação Inválida!");
         }
-		
-		
-		
-		
-		
-		
-		
+	
 		
 		scanner.close();
 
