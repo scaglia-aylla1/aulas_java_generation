@@ -14,7 +14,7 @@ Este repositório contém os códigos e projetos criados ao longo das aulas, abo
 
 ## 📂 Estrutura do Repositório
 
-- [Hello World: aula-1](https://github.com/scaglia-aylla1/aulas_java_generation/tree/main/helloWorld)
+- [Aula-1](https://github.com/scaglia-aylla1/aulas_java_generation/tree/main/aula_01-helloWorld)
 - [Aula-2](https://github.com/scaglia-aylla1/aulas_java_generation/tree/main/aula_02)
 - [Aula-3](https://github.com/scaglia-aylla1/aulas_java_generation/tree/main/aula_03)
 - [Aula-4](https://github.com/scaglia-aylla1/aulas_java_generation/tree/main/aula_04)
