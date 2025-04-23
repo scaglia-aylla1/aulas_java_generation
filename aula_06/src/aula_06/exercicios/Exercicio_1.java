@@ -1,4 +1,4 @@
-package aula_6.exercicios;
+package aula_06.exercicios;
 
 import java.util.ArrayList;
 import java.util.Scanner;
