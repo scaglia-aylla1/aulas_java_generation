@@ -12,7 +12,7 @@ public class Exercicio4Matriz {
 		double[] medias = new double[4];
 		
 		//ler as notas
-		for(int i = 0; i < 4; i++) {
+		for(int i = 0; i < 10; i++) {
 			System.out.println("\nDigite as 4 notas do participante " + (i + 1) + ":");
 			double soma = 0;
 			for(int j = 0; j < 4; j++) {
@@ -25,7 +25,7 @@ public class Exercicio4Matriz {
 		
 		// Exibição das médias
         System.out.println("\nMédias dos participantes:");
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.printf("Participante %d: %.1f\n", (i + 1), medias[i]);
         }
 
