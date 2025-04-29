@@ -21,6 +21,8 @@ Este repositório contém os códigos e projetos criados ao longo das aulas, abo
 - [Aula-5](https://github.com/scaglia-aylla1/aulas_java_generation/tree/main/aula_05)
 - [Aula-6](https://github.com/scaglia-aylla1/aulas_java_generation/tree/main/aula_06)
 - [Aula-7](https://github.com/scaglia-aylla1/aulas_java_generation/tree/main/aula_07)
+- [Aula-8](https://github.com/scaglia-aylla1/aulas_java_generation/tree/main/aula_08)
+- [Aula-Interfaces](https://github.com/scaglia-aylla1/aulas_java_generation/tree/main/aula_Interfaces)
 
 
 
